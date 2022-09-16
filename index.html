@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato:ital,wght@1,300&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@1,600&family=Poppins&family=Roboto:wght@300;400;500;700&family=Smooch+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+    <title>Static Template</title>
+  </head>
+  <body>
+    <section class="container">
+      <div id="menu">
+        <img
+          src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=height:60/https://file-uploads.teachablecdn.com/ffe442a414904138b18e5b532bba9da1/167af06d542e43a999f07c44645dbc1d"
+          alt="Logo"
+        />
+
+        <div>
+          <ul>
+            <li>
+              <i class="fas fa-chart-pie"></i
+              ><a href="javascript:void(0)">Dashboard</a>
+            </li>
+
+            <li>
+              <i class="fab fa-uikit"></i
+              ><a href="javascript:void(0)">UI Elements</a>
+            </li>
+
+            <li>
+              <i class="fas fa-th-large"></i
+              ><a href="javascript:void(0)">Tables</a>
+            </li>
+
+            <li>
+              <i class="fas fa-edit"></i><a href="javascript:void(0)">Forms</a>
+            </li>
+
+            <li>
+              <i class="fab fa-cc-visa"></i
+              ><a href="javascript:void(0)">Cards</a>
+            </li>
+
+            <li>
+              <i class="fas fa-hamburger"></i
+              ><a href="javascript:void(0)">Modal</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="interface">
+        <nav class="navigation">
+          <div class="hamburger">
+            <i id="menu-btn" class="fas fa-bars"></i>
+
+            <div class="search">
+              <i class="fal fa-search"></i>
+              <input type="text" placeholder="Search" />
+            </div>
+          </div>
+
+          <div class="profile">
+            <a href="javascript:void(0)"><i class="far fa-bell"></i></a>
+            <a href="javascript:void(0)"
+              ><img
+                src="https://cdn.fs.teachablecdn.com/pSMNpPEQ7qEAhujaurRp"
+                alt="Profile"
+            /></a>
+          </div>
+        </nav>
+
+        <h3 class="heading">Dashboard</h3>
+        <div class="bottom">
+          <div class="col">
+            <i class="fas fa-users"></i>
+            <article>
+              <h3>8237</h3>
+
+              <span>New Users</span>
+            </article>
+          </div>
+
+          <div class="col">
+            <i class="fas fa-shopping-cart"></i>
+            <article>
+              <h3>200,051</h3>
+
+              <span>Total Orders</span>
+            </article>
+          </div>
+
+          <div class="col">
+            <i class="fas fa-check"></i>
+            <article>
+              <h3>215,452</h3>
+
+              <span>Product Sell</span>
+            </article>
+          </div>
+
+          <div class="col">
+            <i class="fas fa-dollar-sign"></i>
+            <article>
+              <h3>$15000</h3>
+
+              <span>This Month</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="board">
+          <table width="100%">
+            <thead>
+              <tr>
+                <td>Name</td>
+                <td>Title</td>
+                <td>Status</td>
+                <td>Role</td>
+                <td></td>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="col-1" valign="bottom">
+                  <img
+                    src="https://cdn.fs.teachablecdn.com/wgiet3NFRvO2zWrAf7n6"
+                    alt="customer"
+                    class="table__img"
+                  />
+                  <div>
+                    <h5>Bailee Cooper</h5>
+                    <p>Bailee@example.com</p>
+                  </div>
+                </td>
+
+                <td>
+                  <h4>Technophile</h4>
+                </td>
+
+                <td class="active">
+                  <p>Active</p>
+                </td>
+
+                <td class="owner">
+                  <p>Owner</p>
+                </td>
+
+                <td class="edit">
+                  <a href="">Edit</a>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="col-1" valign="bottom">
+                  <img
+                    src="https://cdn.fs.teachablecdn.com/pSMNpPEQ7qEAhujaurRp"
+                    alt="customer"
+                    class="table__img"
+                  />
+                  <div>
+                    <h5>Jason Miller</h5>
+                    <p>Jason@example.com</p>
+                  </div>
+                </td>
+
+                <td>
+                  <h4>Futurist</h4>
+                </td>
+
+                <td class="active">
+                  <p>Active</p>
+                </td>
+
+                <td class="owner">
+                  <p>Owner</p>
+                </td>
+
+                <td class="edit">
+                  <a href="javascript:void(0)">Edit</a>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="col-1" valign="bottom">
+                  <img
+                    src="https://cdn.fs.teachablecdn.com/44zQyTIPT5a8nqK2bkUX"
+                    alt="customer"
+                    class="table__img"
+                  />
+                  <div>
+                    <h5>Ragini Malhotra</h5>
+                    <p>Ragini@example.com</p>
+                  </div>
+                </td>
+
+                <td>
+                  <h4>AI Researcher</h4>
+                </td>
+
+                <td class="active">
+                  <p>Active</p>
+                </td>
+
+                <td class="owner">
+                  <p>Owner</p>
+                </td>
+
+                <td class="edit">
+                  <a href="javascript:void(0)">Edit</a>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="col-1" valign="bottom">
+                  <img
+                    src="https://cdn.fs.teachablecdn.com/A2GPqp7OSrqIi7vEA4VY"
+                    alt="customer"
+                    class="table__img"
+                  />
+                  <div>
+                    <h5>Rob Nielsen</h5>
+                    <p>Rob@example.com</p>
+                  </div>
+                </td>
+
+                <td>
+                  <h4>Student</h4>
+                </td>
+
+                <td class="active">
+                  <p>Active</p>
+                </td>
+
+                <td class="owner">
+                  <p>Owner</p>
+                </td>
+
+                <td class="edit">
+                  <a href="javascript:void(0)">Edit</a>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="col-1" valign="bottom">
+                  <img
+                    src="https://cdn.fs.teachablecdn.com/Uf8ZAKWtTGGO8jPVyzi3"
+                    alt="customer"
+                    class="table__img"
+                  />
+                  <div>
+                    <h5>Rashmi Tirke</h5>
+                    <p>Rashmi@example.com</p>
+                  </div>
+                </td>
+
+                <td>
+                  <h4>Student</h4>
+                </td>
+
+                <td class="active">
+                  <p>Active</p>
+                </td>
+
+                <td class="owner">
+                  <p>Owner</p>
+                </td>
+
+                <td class="edit">
+                  <a href="javascript:void(0)">Edit</a>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="col-1" valign="bottom">
+                  <img
+                    src="https://cdn.fs.teachablecdn.com/TdbTrEo5TkGv40hXNrCN"
+                    alt="customer"
+                    class="table__img"
+                  />
+                  <div>
+                    <h5>David Raum</h5>
+                    <p>David@example.com</p>
+                  </div>
+                </td>
+
+                <td>
+                  <h4>Student</h4>
+                </td>
+
+                <td class="active">
+                  <p>Active</p>
+                </td>
+
+                <td class="owner">
+                  <p>Owner</p>
+                </td>
+
+                <td class="edit">
+                  <a href="javascript:void(0)">Edit</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <script>
+    $("#menu-btn").click(function () {
+      $("#menu").toggleClass("active");
+    });
+  </script>
+</html>
